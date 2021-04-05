@@ -1,2 +1,5 @@
 # bakabot-development
-Composer metapackage for testing libraries used by Bakabot.
+Composer metapackage for development libraries used by Bakabot.
+
+## Installation
+`composer require bakabot/development`
