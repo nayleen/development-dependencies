@@ -1,3 +1,4 @@
+.PHONY: ci vendor
 ci: vendor cleanup
 
 cleanup:
