@@ -6,4 +6,5 @@ cleanup:
 
 vendor: composer.json
 	docker-compose run --rm composer validate
-	docker-compose run --rm composer install --quiet --no-cache --ignore-platform-reqs
+	docker-compose run --rm composer install --quiet --no-cache
+	docker-compose run --rm composer normalize --quiet --dry-run
