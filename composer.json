@@ -6,18 +6,18 @@
     "require": {
         "php": ">=8.1",
         "brainmaestro/composer-git-hooks": "^2.8",
-        "dg/bypass-finals": "^1.3",
-        "ergebnis/composer-normalize": "^2.15",
+        "dg/bypass-finals": "^1.4",
+        "ergebnis/composer-normalize": "^2.28",
         "friendsofphp/php-cs-fixer": "^3.12",
         "hectorj/safe-php-psalm-plugin": "^1.4",
-        "lctrs/psalm-psr-container-plugin": "^1.3",
+        "lctrs/psalm-psr-container-plugin": "^1.8",
         "mikey179/vfsstream": "^1.6",
         "nayleen/codestandard": "dev-main",
         "phpunit/phpunit": "^9.5",
         "psalm/plugin-phpunit": "^0.17",
         "slowprog/composer-copy-file": "~0.3",
-        "thecodingmachine/safe": "^2.0",
-        "vimeo/psalm": "^4.4"
+        "thecodingmachine/safe": "^2.4",
+        "vimeo/psalm": "^4.29"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest"
