@@ -5,7 +5,6 @@
     "type": "metapackage",
     "require": {
         "php": ">=8.1",
-        "brainmaestro/composer-git-hooks": "^2.8",
         "dg/bypass-finals": "^1.4",
         "ergebnis/composer-normalize": "^2.28",
         "friendsofphp/php-cs-fixer": "^3.12",
@@ -15,7 +14,6 @@
         "nayleen/codestandard": "^2@dev",
         "phpunit/phpunit": "^9.5",
         "psalm/plugin-phpunit": "^0.17",
-        "slowprog/composer-copy-file": "~0.3",
         "thecodingmachine/safe": "^2.4",
         "vimeo/psalm": "^4.29"
     },
