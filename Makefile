@@ -2,6 +2,7 @@ ci: composer cleanup
 
 cleanup:
 	@docker-compose down -v 2>/dev/null
+	@rm -rf vendor/
 
 composer:
 	@docker-compose run --rm php composer validate 2>/dev/null
