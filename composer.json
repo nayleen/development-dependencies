@@ -1,5 +1,5 @@
 {
-    "name": "nayleen/development",
+    "name": "nayleen/development-dependencies",
     "description": "Composer metapackage for development libraries I regularly use.",
     "license": "MIT",
     "type": "metapackage",
@@ -10,13 +10,13 @@
         "ergebnis/composer-normalize": "^2",
         "friendsofphp/php-cs-fixer": "^3",
         "mikey179/vfsstream": "^1",
-        "nayleen/codestandard": "^2@dev",
         "phpstan/extension-installer": "^1",
         "phpstan/phpstan": "^1",
         "phpstan/phpstan-deprecation-rules": "^1",
         "phpstan/phpstan-strict-rules": "^1",
         "phpstan/phpstan-phpunit": "^1",
         "phpunit/phpunit": "^9",
+        "thecodingmachine/safe": "^2",
         "thecodingmachine/phpstan-safe-rule": "^1"
     },
     "require-dev": {
