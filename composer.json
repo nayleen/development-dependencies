@@ -6,7 +6,6 @@
     "require": {
         "php": ">=8.1",
         "amphp/phpunit-util": "^3",
-        "dg/bypass-finals": "^1",
         "ergebnis/composer-normalize": "^2",
         "friendsofphp/php-cs-fixer": "^3",
         "mikey179/vfsstream": "^1",
