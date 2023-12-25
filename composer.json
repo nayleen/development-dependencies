@@ -7,7 +7,7 @@
     "php": ">=8.1",
     "amphp/phpunit-util": "^3",
     "ergebnis/composer-normalize": "^2",
-    "friendsofphp/php-cs-fixer": "^v3.38.2",
+    "friendsofphp/php-cs-fixer": "^v3.40.0",
     "mikey179/vfsstream": "^1",
     "phpstan/extension-installer": "^1",
     "phpstan/phpstan": "^1.10.29",
@@ -34,7 +34,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-main": "3.2.x-dev"
+      "dev-main": "3.3.x-dev"
     }
   }
 }
