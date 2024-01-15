@@ -21,6 +21,9 @@
   "require-dev": {
     "roave/security-advisories": "dev-latest"
   },
+  "conflict": {
+    "friendsofphp/php-cs-fixer": "v3.47.0"
+  },
   "config": {
     "allow-plugins": {
       "ergebnis/composer-normalize": true,
