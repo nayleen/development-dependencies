@@ -7,7 +7,7 @@
     "php": ">=8.1",
     "amphp/phpunit-util": "^3",
     "ergebnis/composer-normalize": "^2",
-    "friendsofphp/php-cs-fixer": "^v3.52.1",
+    "friendsofphp/php-cs-fixer": "^v3.30",
     "mikey179/vfsstream": "^1",
     "phpstan/extension-installer": "^1",
     "phpstan/phpstan": "^1.10.29",
