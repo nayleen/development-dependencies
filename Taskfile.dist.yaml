@@ -1,0 +1,36 @@
+version: '3'
+
+silent: true
+
+tasks:
+  clean:
+    cmds:
+      - docker compose down -v 2>/dev/null
+      - rm -rf vendor/
+
+  install:
+    deps: [validate]
+    cmd: docker compose run --rm php composer update --no-cache --prefer-{{ .DEPENDENCY_VERSIONS | default "stable" }} --prefer-stable 2>/dev/null
+    generates:
+      - composer.lock
+      - vendor/**/*
+    sources:
+      - composer.json
+
+  shell:
+    cmd: docker compose run --rm php bash 2>/dev/null
+    interactive: true
+
+  test:
+    deps: [clean, install]
+    cmds:
+      - task: clean
+
+  update:
+    deps: [validate]
+    cmd: docker compose run --rm php composer update --no-cache --prefer-stable 2>/dev/null
+
+  validate:
+    cmd: docker compose run --rm php composer validate 2>/dev/null
+    sources:
+      - composer.json

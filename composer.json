@@ -7,16 +7,16 @@
     "php": ">=8.1",
     "amphp/phpunit-util": "^3",
     "ergebnis/composer-normalize": "^2",
-    "friendsofphp/php-cs-fixer": "^v3.52.1",
+    "friendsofphp/php-cs-fixer": "^3.52.1",
     "mikey179/vfsstream": "^1",
     "phpstan/extension-installer": "^1",
     "phpstan/phpstan": "^1.10.29",
     "phpstan/phpstan-deprecation-rules": "^1",
-    "phpstan/phpstan-strict-rules": "^1",
     "phpstan/phpstan-phpunit": "^1",
+    "phpstan/phpstan-strict-rules": "^1",
     "phpunit/phpunit": "^9",
-    "thecodingmachine/safe": "^2",
-    "thecodingmachine/phpstan-safe-rule": "^1"
+    "thecodingmachine/phpstan-safe-rule": "^1",
+    "thecodingmachine/safe": "^2"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest"
@@ -26,7 +26,6 @@
       "ergebnis/composer-normalize": true,
       "phpstan/extension-installer": true
     },
-    "lock": false,
     "preferred-install": {
       "*": "dist"
     },
@@ -36,5 +35,8 @@
     "branch-alias": {
       "dev-main": "3.5.x-dev"
     }
+  },
+  "scripts": {
+    "post-update-cmd": "@composer normalize"
   }
 }
