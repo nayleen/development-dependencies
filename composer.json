@@ -5,18 +5,17 @@
   "type": "metapackage",
   "require": {
     "php": ">=8.1",
-    "amphp/phpunit-util": "^3",
-    "ergebnis/composer-normalize": "^2",
-    "friendsofphp/php-cs-fixer": "^3.52.1",
-    "mikey179/vfsstream": "^1",
-    "phpstan/extension-installer": "^1",
-    "phpstan/phpstan": "^1.10.29",
-    "phpstan/phpstan-deprecation-rules": "^1",
-    "phpstan/phpstan-phpunit": "^1",
-    "phpstan/phpstan-strict-rules": "^1",
-    "phpunit/phpunit": "^9",
-    "thecodingmachine/phpstan-safe-rule": "^1",
-    "thecodingmachine/safe": "^2"
+    "amphp/phpunit-util": "^3.0.0",
+    "ergebnis/composer-normalize": "^2.47.0",
+    "friendsofphp/php-cs-fixer": "^3.75.0",
+    "phpstan/extension-installer": "^1.4.3",
+    "phpstan/phpstan": "^1.12.26",
+    "phpstan/phpstan-deprecation-rules": "^1.2.1",
+    "phpstan/phpstan-phpunit": "^1.4.2",
+    "phpstan/phpstan-strict-rules": "^1.6.2",
+    "phpunit/phpunit": "^9.6.23",
+    "thecodingmachine/phpstan-safe-rule": "^1.2.0",
+    "thecodingmachine/safe": "^2.5.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest"
@@ -33,7 +32,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-main": "3.5.x-dev"
+      "dev-main": "3.6.x-dev"
     }
   },
   "scripts": {
